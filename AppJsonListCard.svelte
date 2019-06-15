@@ -1,6 +1,6 @@
 <script>
   // Card for each item of the Json list
-  import MDCCard from "./MDCCard.svelte";
+  import MDCCard from "./mdc/MDCCard.svelte";
 
   export let photo;
 </script>

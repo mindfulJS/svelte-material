@@ -2,7 +2,7 @@
 	// List of items for Json part
 	import { onMount } from "svelte";
 	import AppJsonListCard from "./AppJsonListCard.svelte";
-	import MDCSnackbar from "./MDCSnackbar.svelte";
+	import MDCSnackbar from "./mdc/MDCSnackbar.svelte";
 	let photos = [];
 
 	// Get Json Data (photos)

@@ -1,8 +1,10 @@
 <script>
   // Material Design Snackbar component
-  // needs to be opened by parent component from the onMount function like below
-  // This is especially useful for asynchronised functions like loading data.
-  // In parent component:
+  //
+  // It needs to be opened by parent component from the onMount function
+  // This is useful for asynchronised functions like loading data.
+  // Add the following to the parent component:
+  //
   //   onMount(() => {
   //     document.querySelector(".mdc-snackbar").MDCSnackbar.open();
   //   });

@@ -1,5 +1,6 @@
 <script>
   // Material Design Card component
+
   export let imgUrl;
   export let title;
 </script>
