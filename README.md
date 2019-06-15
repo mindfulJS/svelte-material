@@ -1,10 +1,8 @@
-# svelte json material app
+# svelte material
 
-This is a Material Design project template for [Svelte](https://svelte.technology).
+This is a collection of Material Design components for [Svelte](https://svelte.technology).
 
-It uses Material Components Web.
-
-It loads and manipulates JSON data.
+It is based on Material Components Web.
 
 ---
 
