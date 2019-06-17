@@ -1,7 +1,7 @@
 <script>
   // Button for Json part
   import { showData } from "./stores.js";
-  import MDCButton from "./mdc/MDCButtonTemplate.svelte";
+  import MDCButton from "./mdc-templates/MDCButtonTemplate.svelte";
 
   function reload() {
     toggle();
