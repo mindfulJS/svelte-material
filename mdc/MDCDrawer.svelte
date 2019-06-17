@@ -67,7 +67,9 @@
   </aside>
 
   <div class="mdc-drawer-scrim"></div>
-  <div id="main-content" class="main-content">Main Content</div>
+  <div id="main-content" class="main-content">
+    <div id="nav1">Hello</div>
+  </div>
 </div>
 
 <style>
