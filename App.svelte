@@ -1,7 +1,7 @@
 <script>
   // Main app
   import AppTitle from "./AppTitle.svelte";
-  import AppJson from "./AppJson.svelte";
+  import AppCards from "./AppCards.svelte";
 </script>
 
 <!-- Material Components Web CSS-->
@@ -13,7 +13,7 @@
 <!-- Main app-->
 <main>
   <AppTitle />
-  <AppJson />
+  <AppCards />
 </main>
 
 <style>

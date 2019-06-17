@@ -1,18 +1,18 @@
 <script>
   // Json part
   import { fade } from "svelte/transition";
-  import AppJsonButton from "./AppJsonButton.svelte";
-  import AppJsonList from "./AppJsonList.svelte";
+  import AppCardsButton from "./AppCardsButton.svelte";
+  import AppCardsList from "./AppCardsList.svelte";
 
   import { showData } from "./stores.js";
 </script>
 
 <!-- Button to load Json Data-->
-<AppJsonButton />
+<AppCardsButton />
 
 <!-- Json Data List -->
 {#if $showData}
   <div transition:fade>
-    <AppJsonList />
+    <AppCardsList />
   </div>
 {/if}

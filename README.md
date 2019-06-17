@@ -4,9 +4,12 @@ This is a collection of Material Design components for [Svelte](https://svelte.t
 
 It is based on [Material Components Web](https://material-components.github.io/material-components-web-catalog/#/).
 
-The components are located in the /mdc folder along with their templates.
+The components are located in the /mdc folder.
+Their templates are located in the /mdc-templates folder.
 
-The templates, optional, are useful if components need to be quickly implemented on some other projects. They add another layer of abstraction to the components.
+The templates, although optional, are useful if components need to be quickly implemented on some projects. They add that extra layer of abstraction which is nice for the developer.
+
+The collection makes it easy to create a material app with Svelte!
 
 ---
 

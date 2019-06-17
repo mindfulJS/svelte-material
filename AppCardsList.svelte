@@ -1,7 +1,7 @@
 <script>
 	// List of items for Json part
 	import { onMount } from "svelte";
-	import AppJsonListCard from "./AppJsonListCard.svelte";
+	import MDCCard from "./mdc-templates/MDCCardTemplate.svelte";
 	import MDCSnackbar from "./mdc-templates/MDCSnackbarTemplate.svelte";
 	let photos = [];
 
@@ -40,7 +40,8 @@
 <!-- List of photos -->
 <div>
 	{#each photos as photo (photo.id)}
-		<AppJsonListCard {photo} />
+		<!-- Card with photo -->
+		<MDCCard imgSrc="{photo.download_url}" imgTitle="{photo.author}" imgDescription="description" />
 	{:else}
 			<!-- this block renders when photos.length === 0 -->
 		<p>Loading...</p>
