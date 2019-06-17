@@ -7,7 +7,7 @@
 
 	onMount(async () => {
 	  // Open Snackbar when something has loaded
-	  document.querySelector(".mdc-snackbar").MDCSnackbar.open();
+	  //document.querySelector(".mdc-snackbar").MDCSnackbar.open();
 	});
 </script>
 

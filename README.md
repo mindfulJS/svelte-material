@@ -7,8 +7,9 @@ It is based on [Material Components Web](https://material-components.github.io/m
 The components are located in the /mdc folder.
 Their templates are located in the /mdc-templates folder.
 
-The templates, although optional, are useful if components need to be quickly implemented on some projects. They add that extra layer of abstraction which is nice for the developer.
+The templates, although optional, are useful if components need to be quickly implemented on some projects. They add that extra layer of abstraction.
 
+This app is an example of how to combine multiple components together.
 The collection makes it easy to create a material app with Svelte!
 
 ---
