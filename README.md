@@ -2,7 +2,11 @@
 
 This is a collection of Material Design components for [Svelte](https://svelte.technology).
 
-It is based on Material Components Web.
+It is based on [Material Components Web](https://material-components.github.io/material-components-web-catalog/#/).
+
+The components are located in the "/mdc" folder along with their templates.
+
+The templates, optional, are useful if components need to be quickly implemented in some other projects.
 
 ---
 

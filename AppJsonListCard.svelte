@@ -1,9 +1,9 @@
 <script>
   // Card for each item of the Json list
-  import MDCCard from "./mdc/MDCCard.svelte";
+  import MDCCard from "./mdc/MDCCardTemplate.svelte";
 
   export let photo;
 </script>
 
 <!-- Card with photo -->
-<MDCCard imgUrl="{photo.download_url}" title="{photo.author}" />
+<MDCCard imgSrc="{photo.download_url}" imgTitle="{photo.author}" imgDescription="description" />

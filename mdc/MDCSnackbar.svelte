@@ -12,7 +12,7 @@
   import { onMount } from "svelte";
   import * as mdc from "material-components-web";
 
-  export let message;
+  export let snackbarMessage;
 
   onMount(() => {
     mdc.autoInit();
@@ -24,7 +24,7 @@
     <div class="mdc-snackbar__label"
          role="status"
          aria-live="polite">
-      {message}
+      {snackbarMessage}
     </div>
   </div>
 </div>

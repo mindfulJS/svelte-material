@@ -2,14 +2,14 @@
 	// List of items for Json part
 	import { onMount } from "svelte";
 	import AppJsonListCard from "./AppJsonListCard.svelte";
-	import MDCSnackbar from "./mdc/MDCSnackbar.svelte";
+	import MDCSnackbar from "./mdc/MDCSnackbarTemplate.svelte";
 	let photos = [];
 
 	// Get Json Data (photos)
 	onMount(async () => {
 	  const res = await fetch(`https://picsum.photos/v2/list`);
 	  photos = await res.json();
-	  console.log(photos);
+	  //console.log(photos);
 	  photos = shuffle(photos);
 	  // Open Snackbar when data is loaded
 	  document.querySelector(".mdc-snackbar").MDCSnackbar.open();
@@ -46,5 +46,5 @@
 		<p>Loading...</p>
 	{/each}
 
-	<MDCSnackbar message="Data loaded successfully"/>
+	<MDCSnackbar snackbarMessage="Data loaded successfully"/>
 </div>

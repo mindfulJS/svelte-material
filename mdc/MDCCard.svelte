@@ -1,8 +1,9 @@
 <script>
   // Material Design Card component
 
-  export let imgUrl;
-  export let title;
+  export let imgSrc;
+  export let imgTitle;
+  export let imgDescription;
 </script>
 
 <!-- Card with photo -->
@@ -10,9 +11,12 @@
   <div class="mdc-layout-grid my-grid">
     <div class="mdc-layout-grid__inner">
       <div class="mdc-layout-grid__cell my-cell">
-        <img class="mdc-image-list__image" alt="" src="{imgUrl}">
+        <img class="mdc-image-list__image" alt="" src="{imgSrc}">
       </div>
-      <p class="mdc-layout-grid__cell my-cell-content mdc-typography--body1"><b>{title}</b></p>
+      <p class="mdc-layout-grid__cell my-cell-content mdc-typography--body1">
+        <b>{imgTitle}</b><br>
+        {imgDescription}
+      </p>
     </div>
   </div>
 </div>
