@@ -4,5 +4,5 @@
 </script>
 
 <!-- Drawer -->
-<br><br>
+<br>
 <MDCTabBar />
