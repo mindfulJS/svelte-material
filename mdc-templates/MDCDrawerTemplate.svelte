@@ -1,6 +1,6 @@
 <script>
   // Drawer template
-  import MDCDrawer from "./mdc-templates/MDCDrawerTemplate.svelte";
+  import MDCDrawer from "/mdc/MDCDrawer.svelte";
 </script>
 
 <!-- Drawer -->

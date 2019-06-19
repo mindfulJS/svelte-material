@@ -1,6 +1,7 @@
 <script>
   // Main app
   import AppDrawer from "./AppDrawer.svelte";
+  import AppTabBar from "./AppTabBar.svelte";
   import AppTitle from "./AppTitle.svelte";
   import AppCards from "./AppCards.svelte";
 </script>
@@ -13,10 +14,11 @@
 </svelte:head>
 
 <AppDrawer />
+<AppTabBar />
+
 <!-- Main app-->
 <main>
-  
-  <AppTitle />
+<!--  <AppTitle /> -->
   <AppCards />
   
 </main>

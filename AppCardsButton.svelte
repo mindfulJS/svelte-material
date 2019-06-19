@@ -16,4 +16,5 @@
 </script>
 
 <!-- Button -->
+<br>
 <MDCButton buttonText="Reload new photos" onClickFunction={reload} />
