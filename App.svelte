@@ -2,6 +2,8 @@
   // Main app
   import AppDrawer from "./AppDrawer.svelte";
   import AppTabBar from "./AppTabBar.svelte";
+  import AppSwitch from "./AppSwitch.svelte";
+  import AppSelect from "./AppSelect.svelte";
   import AppTitle from "./AppTitle.svelte";
   import AppCards from "./AppCards.svelte";
 </script>
@@ -16,11 +18,17 @@
 <AppDrawer />
 <AppTabBar />
 
+
+
 <!-- Main app-->
 <main>
-<!--  <AppTitle /> -->
-  <AppCards />
   
+  <AppSwitch />
+  <br>
+  <br>
+  <AppSelect />
+  <br>
+  <AppCards />
 </main>
 
 <style>
