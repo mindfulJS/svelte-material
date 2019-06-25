@@ -1,11 +1,1 @@
-<script>
-  import AppTabBar from "../AppTabBar.svelte";
-  import AppSwitch from "../AppSwitch.svelte";
-  import AppSelect from "../AppSelect.svelte";
-</script>
-
-<AppTabBar />
-<br>
-<AppSwitch />
-<br>
-<AppSelect />
+<h1 class="mdc-typography--headline4">About</h1>

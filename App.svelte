@@ -2,6 +2,9 @@
   // Routing
   import Router from "svelte-spa-router";
   import Home from "./pages/Home.svelte";
+  import Select from "./pages/Select.svelte";
+  import Switch from "./pages/Switch.svelte";
+  import TabBar from "./pages/TabBar.svelte";
   import About from "./pages/About.svelte";
   import NotFound from "./pages/NotFound.svelte";
 
@@ -10,11 +13,10 @@
 
   // Routing
   const routes = {
-    // Exact path
     "/": Home,
-    "/home": Home,
-
-    // Using named parameters, with last being optional
+    "/select": Select,
+    "/switch": Switch,
+    "/tabbar": TabBar,
     "/about": About,
 
     // Catch-all
@@ -31,7 +33,7 @@
 </svelte:head>
 
 <!-- Navigation-->
-<AppDrawer />
+<AppDrawer title="Svelte Material Components" {routes}/>
 
 <!-- Main app-->
 <main>
