@@ -1,11 +1,26 @@
 <script>
-  // Main app
+  // Routing
+  import Router from "svelte-spa-router";
+  import Home from "./pages/Home.svelte";
+  import About from "./pages/About.svelte";
+  import NotFound from "./pages/NotFound.svelte";
+
+  // Navigation
   import AppDrawer from "./AppDrawer.svelte";
-  import AppTabBar from "./AppTabBar.svelte";
-  import AppSwitch from "./AppSwitch.svelte";
-  import AppSelect from "./AppSelect.svelte";
-  import AppTitle from "./AppTitle.svelte";
-  import AppCards from "./AppCards.svelte";
+
+  // Routing
+  const routes = {
+    // Exact path
+    "/": Home,
+    "/home": Home,
+
+    // Using named parameters, with last being optional
+    "/about": About,
+
+    // Catch-all
+    // This is optional, but if present it must be the last
+    "*": NotFound
+  };
 </script>
 
 <!-- Material Components Web CSS-->
@@ -15,20 +30,13 @@
   <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
 </svelte:head>
 
+<!-- Navigation-->
 <AppDrawer />
-<AppTabBar />
-
-
 
 <!-- Main app-->
 <main>
-  
-  <AppSwitch />
   <br>
-  <br>
-  <AppSelect />
-  <br>
-  <AppCards />
+  <Router {routes}/>
 </main>
 
 <style>
