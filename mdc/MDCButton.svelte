@@ -1,6 +1,5 @@
 <script>
   // Material Design Button component
-
   import { onMount } from "svelte";
   import * as mdc from "material-components-web";
 
